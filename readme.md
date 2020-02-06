@@ -25,7 +25,7 @@ Another example:
 
 It is exported as a default export, and can accept these properties:
 
-- `point` (ref): the reference to the element we want to point to, or a function that returns `{ left: 'Npx', top: 'Mpx' }`.
+- `point` (ref): the reference to the element we want to point to.
 - `rotation` (number): the angle to rotate the arrow in degrees. Defaults to 45.
 - `color="red"` (str):
 - `offset={{ left: '20px', top: '2px' }}` (obj|fn): the offset from the bottom-left of the element. Defaults to `{ left: '20px', top: '2px' }` because it looks good.
