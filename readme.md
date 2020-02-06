@@ -43,8 +43,8 @@ Yes, pretty much. It is [inspired by a tweet](https://twitter.com/freezydorito/s
 
 **How long did it take?**
 
-30min
+~30min~ ~40min~ 50min
 
-**But wait you just did publish it and it works!**
+**But wait you just did publish it!**
 
 Yes?
