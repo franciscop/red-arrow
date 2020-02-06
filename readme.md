@@ -1,4 +1,4 @@
-# Red Arrow [![npm install red-arrow](https://img.shields.io/badge/npm%20install-red--arrow-blue.svg)](https://www.npmjs.com/package/red-arrow) [![code sandbox](https://img.shields.io/badge/%20DEMO%20➡️%20-blue.svg)](https://codesandbox.io/s/brave-robinson-gmpz8) [![gzip size](https://img.badgesize.io/franciscop/red-arrow/master/index.min.js.svg?compression=gzip)](https://github.com/franciscop/red-arrow/blob/master/index.min.js)
+# Red Arrow [![npm install red-arrow](https://img.shields.io/badge/npm%20install-red--arrow-blue.svg)](https://www.npmjs.com/package/red-arrow) [![code sandbox](https://img.shields.io/badge/%20DEMO%20%20-blue.svg)](https://codesandbox.io/s/brave-robinson-gmpz8) [![gzip size](https://img.badgesize.io/franciscop/red-arrow/master/index.min.js.svg?compression=gzip)](https://github.com/franciscop/red-arrow/blob/master/index.min.js)
 
 Display a *nice looking* red arrow pointing to the element you reference in React ([see **Codesandbox**](https://codesandbox.io/s/brave-robinson-gmpz8)):
 
