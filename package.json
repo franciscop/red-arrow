@@ -2,22 +2,22 @@
   "name": "red-arrow",
   "version": "1.0.3",
   "description": "Draws a red arrow in React",
-  "homepage": "https://github.com/franciscop/red-arrow#readme",
-  "repository": "https://github.com/franciscop/red-arrow.git",
-  "bugs": "https://github.com/franciscop/red-arrow/issues",
-  "funding": "https://www.paypal.me/franciscopresencia/19",
+  "repository": "github:franciscop/red-arrow",
   "author": "Francisco Presencia <public@francisco.io> (https://francisco.io/)",
+  "funding": "https://www.paypal.me/franciscopresencia/19",
   "license": "MIT",
-  "scripts": {
-    "build": "webpack -c",
-    "size": "echo $(gzip -c index.min.js | wc -c) bytes"
-  },
   "keywords": [
     "red",
     "arrow",
     "react",
     "duh"
   ],
+  "scripts": {
+    "build": "webpack -c",
+    "size": "echo $(gzip -c index.min.js | wc -c) bytes",
+    "test": "bun test",
+    "lint": "oxlint index.js"
+  },
   "main": "index.min.js",
   "files": [],
   "dependencies": {},
@@ -26,6 +26,7 @@
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
+    "oxlint": "^1.89.0",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "webpack": "^4.25.0",
