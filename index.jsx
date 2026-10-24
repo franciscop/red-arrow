@@ -13,7 +13,7 @@ export default ({
   point,
   color = "red",
   rotate = 60,
-  offset = { x: 30, y: 2 }
+  offset = { x: 30, y: 2 },
 }) => {
   const [position, setPosition] = useState(getPos(point, offset));
   useEffect(() => setPosition(getPos(point, offset)), [point]);
@@ -25,7 +25,7 @@ export default ({
         ...position,
         zIndex: 1000,
         transformOrigin: "top left",
-        transform: `rotate(${rotate - 45}deg)`
+        transform: `rotate(${rotate - 45}deg)`,
       }}
     >
       <path d="M30,5 L2,2 L5,30" fill="none" stroke={color} stroke-width="4" />
